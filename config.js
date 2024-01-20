@@ -2,9 +2,9 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "twitch", 
     // dnd/online/idle
-    "status": "",
+    "status": "Streaming",
 
     "game": {
         "applicationID": "",
@@ -24,20 +24,20 @@ module.exports = {
         "endTimestamp": "" // time left since this timestamp (decrease --)
     },
     "twitch": {
-        "applicationID": "",
-        "url": "", // twitch channel link
+        "applicationID": "996312025623965756",
+        "url": "https://www.twitch.tv/Emerpus", // twitch channel link
 
-        "details": "", // title
-        "state": "", // first row below title (playing ...)
+        "details": "Streaming", // title
+        "state": "Valorant", // first row below title (playing ...)
 
-        "largeImageKey": "", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
+        "largeImageKey": "creep", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
         "largeImageText": "", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
         
-        "smallImageKey": "",
+        "smallImageKey": "neko",
         "smallImageText": "",
 
-        "startTimestamp": "",
-        "endTimestamp": ""
+        "startTimestamp": "Date.now()",
+        "endTimestamp": "Date.now() + 48 * 60 * 60 * 1000"
     },
     "spotify": {
         "name": "", // for exemple listening to {name} instead of listening to spotify
